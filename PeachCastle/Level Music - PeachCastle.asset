@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b713d11cf8910af6f043aa305a2f901c, type: 3}
+  m_Name: Level Music - PeachCastle
+  m_EditorClassIdentifier: 
+  tracks:
+  - name: PeachCastle 01
+    audioClip: {fileID: 8300000, guid: 0abb78b453993f34ba53243b40204436, type: 3}
+    volume: 0.275
+  - name: PeachCastle 02
+    audioClip: {fileID: 8300000, guid: 69c2023c0f7426c44b663c6f78e18584, type: 3}
+    volume: 0.15
+  - name: PeachCastle 03
+    audioClip: {fileID: 8300000, guid: c5ddda433c5712e4cbe241d46e3bca58, type: 3}
+    volume: 0.15
+  - name: PeachCastle 04
+    audioClip: {fileID: 8300000, guid: 4d88792bf59c8f7448e7d0efba40aef7, type: 3}
+    volume: 0.15

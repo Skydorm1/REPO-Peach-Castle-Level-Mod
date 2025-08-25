@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af5c47f9cc1f97c14193feeb6e0d379f, type: 3}
+  m_Name: Valuable For Testing In Unity
+  m_EditorClassIdentifier: 
+  tiny:
+  - {fileID: 1572548539679572, guid: 71fc856d6401ac64a99f1eee5584bfcc, type: 3}
+  - {fileID: 1572548539679572, guid: 8e49ed76dfdbcbd40b16a48492e01620, type: 3}
+  - {fileID: 1572548539679572, guid: a6502e744fa4d224a9b7ba5e380a2908, type: 3}
+  - {fileID: 1572548539679572, guid: 2d0975387f47b9b43a7130195f0e789f, type: 3}
+  - {fileID: 1572548539679572, guid: 3d1c3bda7da5c9242a175aa31a31bc60, type: 3}
+  - {fileID: 1572548539679572, guid: 64d64baf4c5f1274da31c085ab732476, type: 3}
+  small:
+  - {fileID: 1062632904352838, guid: 1793b936e9295c1449d5f8554ba676ed, type: 3}
+  - {fileID: 1062632904352838, guid: 1a71384f9e90e254592a017cf5658fc1, type: 3}
+  - {fileID: 1062632904352838, guid: 1a5a1bf18eaf1ff4097ffe6d016fef30, type: 3}
+  - {fileID: 1062632904352838, guid: fe5b9f432feaf164a932749ee1b7b7ca, type: 3}
+  - {fileID: 1062632904352838, guid: 76e8262b25971b64b8750100c5523083, type: 3}
+  - {fileID: 1062632904352838, guid: 519a2386ce02be849a4badfa5909e630, type: 3}
+  - {fileID: 1062632904352838, guid: fbf73721dc9ac1b47aa315881ea46399, type: 3}
+  - {fileID: 1062632904352838, guid: b4b42b3cd9fd59646af4c1aace6a4364, type: 3}
+  - {fileID: 1062632904352838, guid: cf16a59a5533b4847aea87239d309722, type: 3}
+  - {fileID: 1062632904352838, guid: 89416cd5660b7aa4188fe96ac7680984, type: 3}
+  - {fileID: 1062632904352838, guid: eb54bc0845577d8498a2c5cf067bb545, type: 3}
+  - {fileID: 1062632904352838, guid: a3fb8d837b18d5e44b0ca65ce532febf, type: 3}
+  - {fileID: 1062632904352838, guid: f40cb8746ea62c141aa90255a3567820, type: 3}
+  - {fileID: 1062632904352838, guid: 08524bd73b0437e449e13e79f8cdb259, type: 3}
+  - {fileID: 1062632904352838, guid: 482b9a0d91ecf3b4baf25098367537af, type: 3}
+  - {fileID: 1062632904352838, guid: 8a2099795f2c18244a4fce938d535bd7, type: 3}
+  - {fileID: 1062632904352838, guid: 66fdb52539bd7c6469e9e892d4879b5c, type: 3}
+  medium:
+  - {fileID: 1418661066342054, guid: 79040255e94f9494eb18092f3d21ff08, type: 3}
+  - {fileID: 1418661066342054, guid: 958e300f0a583084ea3d640f82ee0917, type: 3}
+  - {fileID: 1418661066342054, guid: d961818407f2557469edfa4eceb9a8d0, type: 3}
+  - {fileID: 1418661066342054, guid: 7744598634490da44b2d96cecb6024eb, type: 3}
+  - {fileID: 1418661066342054, guid: b34fed7388eb1af4b9194ad8b395b892, type: 3}
+  - {fileID: 1418661066342054, guid: d2053ae30e6052646a91c39b897bd883, type: 3}
+  - {fileID: 1418661066342054, guid: 72fbf2c5e8e845e498d623ad24590b2d, type: 3}
+  - {fileID: 1418661066342054, guid: da3e13b69758f47498fcd529af251b22, type: 3}
+  - {fileID: 1418661066342054, guid: 5a3ccfc4390863e43b3f7b0645171140, type: 3}
+  - {fileID: 1418661066342054, guid: e0e38f24d50a1a942b509846ba69d776, type: 3}
+  - {fileID: 1418661066342054, guid: db1e4ea81e1b71b4f8388594d8d5ef0c, type: 3}
+  - {fileID: 1418661066342054, guid: 8f9b7acc9b119d9488661533616b946a, type: 3}
+  big:
+  - {fileID: 1515057735557021, guid: 85feb031569e04a46a0cf38b004203d9, type: 3}
+  - {fileID: 1515057735557021, guid: 6342bda200c72cd4f86bf02664c6a52c, type: 3}
+  wide:
+  - {fileID: 1766091102342306, guid: f624a7192f93ee24a8de9231fd91be2d, type: 3}
+  - {fileID: 1766091102342306, guid: 7decb50e2d741074ebc5e4c0560abd81, type: 3}
+  - {fileID: 1766091102342306, guid: fd73cdd5c4c0a0d4eb8b4b36927870d7, type: 3}
+  tall:
+  - {fileID: 1025230073407314, guid: 0c88cf95b73c49141913491c34143186, type: 3}
+  - {fileID: 1025230073407314, guid: e6d068651c555ec4a9194fa18df78022, type: 3}
+  - {fileID: 1025230073407314, guid: 7358c55df8db1f74b8e2874207641dbb, type: 3}
+  - {fileID: 1025230073407314, guid: 57f723bf3b2365c4ba5e56c12cf78785, type: 3}
+  - {fileID: 1025230073407314, guid: ce6ea7a8719b8fe40889e572d8dbdf2f, type: 3}
+  veryTall:
+  - {fileID: 1025230073407314, guid: 6f89906609f8a41439fbd2e65c782fcc, type: 3}
+  - {fileID: 1024868008146794, guid: 52534f4c7849b434bb388265060c0369, type: 3}

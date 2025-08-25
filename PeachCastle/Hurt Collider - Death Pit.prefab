@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6859758133913906442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6861805372857220895}
+  - component: {fileID: 6907519585152637705}
+  - component: {fileID: 6819119670819109945}
+  m_Layer: 7
+  m_Name: Hurt Collider - Death Pit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6861805372857220895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6859758133913906442}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.05, y: -12, z: -0.86}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6907519585152637705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6859758133913906442}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.9959135, y: 2.9233303, z: 9.219203}
+  m_Center: {x: 1.0764441, y: 0.5657692, z: 0.82431555}
+--- !u!114 &6819119670819109945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6859758133913906442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df46af9b5382a99d6c879bd453f679c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLogic: 1
+  playerKill: 1
+  playerDamage: 10
+  playerDamageCooldown: 0.25
+  playerHitForce: 0
+  playerRayCast: 0
+  playerTumbleForce: 0
+  playerTumbleTorque: 0
+  playerTumbleTorqueAxis: 1
+  playerTumbleTime: 0
+  playerTumbleImpactHurtTime: 0
+  playerTumbleImpactHurtDamage: 0
+  physLogic: 1
+  physDestroy: 1
+  physHingeDestroy: 1
+  physHingeBreak: 0
+  physImpact: 1
+  physDamageCooldown: 0.25
+  physHitForce: 0
+  physHitTorque: 0
+  physRayCast: 0
+  enemyLogic: 1
+  enemyHost: {fileID: 0}
+  enemyKill: 1
+  enemyStun: 0
+  enemyStunTime: 5
+  enemyStunType: 2
+  enemyFreezeTime: 0.1
+  enemyImpact: 2
+  enemyDamage: 0
+  enemyDamageCooldown: 0.25
+  enemyHitForce: 0
+  enemyHitTorque: 0
+  enemyRayCast: 0
+  enemyHitTriggers: 0
+  deathPit: 1
+  hitSpread: 180
+  ignoreObjects: []
+  hasTimer: 0
+  timer: 0.2
+  destroyOnTimerEnd: 0
+  hasCustomRaycastPosition: 0
+  customRaycastPosition: {x: 0, y: 0, z: 0}
+  onImpactAny:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPhysObject:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactEnemy:
+    m_PersistentCalls:
+      m_Calls: []

@@ -1,0 +1,1149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &403383795520768201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9001407069217140932}
+  - component: {fileID: 8822445289761910011}
+  - component: {fileID: 5566183628836925815}
+  m_Layer: 7
+  m_Name: Hurt Collider - Death Pit (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9001407069217140932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403383795520768201}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.92720944, z: -0, w: 0.3745433}
+  m_LocalPosition: {x: 0.093411, y: -0.379, z: -0.013867}
+  m_LocalScale: {x: 0.070598416, y: 0.1914054, z: 0.070598416}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1203768825688814737}
+  m_LocalEulerAnglesHint: {x: 0, y: -136.008, z: 0}
+--- !u!65 &8822445289761910011
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403383795520768201}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.9959135, y: 2.9233303, z: 9.219203}
+  m_Center: {x: 1.0764441, y: 0.5657692, z: 0.82431555}
+--- !u!114 &5566183628836925815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403383795520768201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df46af9b5382a99d6c879bd453f679c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLogic: 1
+  playerKill: 0
+  playerDamage: 5
+  playerDamageCooldown: 0.25
+  playerHitForce: 12
+  playerRayCast: 0
+  playerTumbleForce: 12
+  playerTumbleTorque: 0
+  playerTumbleTorqueAxis: 0
+  playerTumbleTime: 0.3
+  playerTumbleImpactHurtTime: 0
+  playerTumbleImpactHurtDamage: 0
+  physLogic: 1
+  physDestroy: 0
+  physHingeDestroy: 0
+  physHingeBreak: 0
+  physImpact: 1
+  physDamageCooldown: 0.25
+  physHitForce: 0
+  physHitTorque: 0
+  physRayCast: 0
+  enemyLogic: 1
+  enemyHost: {fileID: 0}
+  enemyKill: 0
+  enemyStun: 0
+  enemyStunTime: 1
+  enemyStunType: 0
+  enemyFreezeTime: 0.1
+  enemyImpact: 2
+  enemyDamage: 3
+  enemyDamageCooldown: 0.5
+  enemyHitForce: 0
+  enemyHitTorque: 0
+  enemyRayCast: 0
+  enemyHitTriggers: 0
+  deathPit: 0
+  hitSpread: 180
+  ignoreObjects: []
+  hasTimer: 0
+  timer: 0.2
+  destroyOnTimerEnd: 0
+  hasCustomRaycastPosition: 0
+  customRaycastPosition: {x: 0, y: 0, z: 0}
+  onImpactAny:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPhysObject:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactEnemy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &616285426013353691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6912073662395230794}
+  m_Layer: 0
+  m_Name: Damage Objects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6912073662395230794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616285426013353691}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.371733, y: 11.807095, z: 74.18857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5216132945968806651}
+  - {fileID: 1203768825688814737}
+  - {fileID: 4289225679024835273}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1365880459840571414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6850627483304487579}
+  - component: {fileID: 7498203696781569255}
+  - component: {fileID: 3853757354285092707}
+  m_Layer: 7
+  m_Name: Hurt Collider - Death Pit (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6850627483304487579
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365880459840571414}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6159443, y: 0.28522626, z: 0.2551325, w: 0.68859714}
+  m_LocalPosition: {x: -0.12678, y: -0.98301, z: -0.71748}
+  m_LocalScale: {x: 0.09002346, y: 0.2742925, z: 0.09002346}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4289225679024835273}
+  m_LocalEulerAnglesHint: {x: 44.647, y: 83.664, z: 81.021}
+--- !u!65 &7498203696781569255
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365880459840571414}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.9959135, y: 2.9233303, z: 9.219203}
+  m_Center: {x: 1.0764441, y: 0.5657692, z: 0.82431555}
+--- !u!114 &3853757354285092707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365880459840571414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df46af9b5382a99d6c879bd453f679c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLogic: 1
+  playerKill: 0
+  playerDamage: 5
+  playerDamageCooldown: 0.25
+  playerHitForce: 12
+  playerRayCast: 0
+  playerTumbleForce: 12
+  playerTumbleTorque: 0
+  playerTumbleTorqueAxis: 0
+  playerTumbleTime: 0.3
+  playerTumbleImpactHurtTime: 0
+  playerTumbleImpactHurtDamage: 0
+  physLogic: 1
+  physDestroy: 0
+  physHingeDestroy: 0
+  physHingeBreak: 0
+  physImpact: 1
+  physDamageCooldown: 0.25
+  physHitForce: 0
+  physHitTorque: 0
+  physRayCast: 0
+  enemyLogic: 1
+  enemyHost: {fileID: 0}
+  enemyKill: 0
+  enemyStun: 0
+  enemyStunTime: 1
+  enemyStunType: 0
+  enemyFreezeTime: 0.1
+  enemyImpact: 2
+  enemyDamage: 3
+  enemyDamageCooldown: 0.5
+  enemyHitForce: 0
+  enemyHitTorque: 0
+  enemyRayCast: 0
+  enemyHitTriggers: 0
+  deathPit: 0
+  hitSpread: 180
+  ignoreObjects: []
+  hasTimer: 0
+  timer: 0.2
+  destroyOnTimerEnd: 0
+  hasCustomRaycastPosition: 0
+  customRaycastPosition: {x: 0, y: 0, z: 0}
+  onImpactAny:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPhysObject:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactEnemy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &1576387540548212133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4072090709765413232}
+  - component: {fileID: 7992370803680865763}
+  - component: {fileID: 2698537728481332163}
+  m_Layer: 7
+  m_Name: Hurt Collider - Death Pit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4072090709765413232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576387540548212133}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.92720944, z: -0, w: 0.3745433}
+  m_LocalPosition: {x: 0.12443, y: -1.576, z: -0.01743}
+  m_LocalScale: {x: 0.09362895, y: 0.52759165, z: 0.09362895}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1203768825688814737}
+  m_LocalEulerAnglesHint: {x: 0, y: -136.008, z: 0}
+--- !u!65 &7992370803680865763
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576387540548212133}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.9959135, y: 2.9233303, z: 9.219203}
+  m_Center: {x: 1.0764441, y: 0.5657692, z: 0.82431555}
+--- !u!114 &2698537728481332163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576387540548212133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df46af9b5382a99d6c879bd453f679c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLogic: 1
+  playerKill: 0
+  playerDamage: 5
+  playerDamageCooldown: 0.25
+  playerHitForce: 12
+  playerRayCast: 0
+  playerTumbleForce: 12
+  playerTumbleTorque: 0
+  playerTumbleTorqueAxis: 0
+  playerTumbleTime: 0.3
+  playerTumbleImpactHurtTime: 0
+  playerTumbleImpactHurtDamage: 0
+  physLogic: 1
+  physDestroy: 0
+  physHingeDestroy: 0
+  physHingeBreak: 0
+  physImpact: 1
+  physDamageCooldown: 0.25
+  physHitForce: 0
+  physHitTorque: 0
+  physRayCast: 0
+  enemyLogic: 1
+  enemyHost: {fileID: 0}
+  enemyKill: 0
+  enemyStun: 0
+  enemyStunTime: 1
+  enemyStunType: 0
+  enemyFreezeTime: 0.1
+  enemyImpact: 2
+  enemyDamage: 3
+  enemyDamageCooldown: 0.5
+  enemyHitForce: 0
+  enemyHitTorque: 0
+  enemyRayCast: 0
+  enemyHitTriggers: 0
+  deathPit: 0
+  hitSpread: 180
+  ignoreObjects: []
+  hasTimer: 0
+  timer: 0.2
+  destroyOnTimerEnd: 0
+  hasCustomRaycastPosition: 0
+  customRaycastPosition: {x: 0, y: 0, z: 0}
+  onImpactAny:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPhysObject:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactEnemy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &2229543494168974069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1203768825688814737}
+  - component: {fileID: 7482864551499133341}
+  - component: {fileID: 6006718166073289438}
+  - component: {fileID: 9123753069253552196}
+  - component: {fileID: 1017824626555713970}
+  m_Layer: 0
+  m_Name: PipePakunStraight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1203768825688814737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2229543494168974069}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 3.48, y: -11.600634, z: -14.32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4072090709765413232}
+  - {fileID: 9001407069217140932}
+  m_Father: {fileID: 6912073662395230794}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 180}
+--- !u!33 &7482864551499133341
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2229543494168974069}
+  m_Mesh: {fileID: 4300000, guid: 48d0845e89d86bf4bbdb1476815e51c3, type: 2}
+--- !u!23 &6006718166073289438
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2229543494168974069}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 105f2c4df3908a643ae9be437f995475, type: 2}
+  - {fileID: 2100000, guid: f60a49ed73997df4ab9363e1b65bde7d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &9123753069253552196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2229543494168974069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!64 &1017824626555713970
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2229543494168974069}
+  m_Material: {fileID: 13400000, guid: 16beacdfb792c1b4ab7ff8e899dba76a, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 48d0845e89d86bf4bbdb1476815e51c3, type: 2}
+--- !u!1 &2794056568801813312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42467514503926384}
+  - component: {fileID: 2958386763249874452}
+  - component: {fileID: 8459616721312483288}
+  m_Layer: 7
+  m_Name: Hurt Collider - Death Pit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &42467514503926384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2794056568801813312}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: -0.13051, y: -0.593, z: -0.024}
+  m_LocalScale: {x: 0.092795335, y: 0.28273812, z: 0.092795335}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4289225679024835273}
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!65 &2958386763249874452
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2794056568801813312}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.9959135, y: 2.9233303, z: 9.219203}
+  m_Center: {x: 1.0764441, y: 0.5657692, z: 0.82431555}
+--- !u!114 &8459616721312483288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2794056568801813312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df46af9b5382a99d6c879bd453f679c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLogic: 1
+  playerKill: 0
+  playerDamage: 5
+  playerDamageCooldown: 0.25
+  playerHitForce: 12
+  playerRayCast: 0
+  playerTumbleForce: 12
+  playerTumbleTorque: 0
+  playerTumbleTorqueAxis: 0
+  playerTumbleTime: 0.3
+  playerTumbleImpactHurtTime: 0
+  playerTumbleImpactHurtDamage: 0
+  physLogic: 1
+  physDestroy: 0
+  physHingeDestroy: 0
+  physHingeBreak: 0
+  physImpact: 1
+  physDamageCooldown: 0.25
+  physHitForce: 0
+  physHitTorque: 0
+  physRayCast: 0
+  enemyLogic: 1
+  enemyHost: {fileID: 0}
+  enemyKill: 0
+  enemyStun: 0
+  enemyStunTime: 1
+  enemyStunType: 0
+  enemyFreezeTime: 0.1
+  enemyImpact: 2
+  enemyDamage: 3
+  enemyDamageCooldown: 0.5
+  enemyHitForce: 0
+  enemyHitTorque: 0
+  enemyRayCast: 0
+  enemyHitTriggers: 0
+  deathPit: 0
+  hitSpread: 180
+  ignoreObjects: []
+  hasTimer: 0
+  timer: 0.2
+  destroyOnTimerEnd: 0
+  hasCustomRaycastPosition: 0
+  customRaycastPosition: {x: 0, y: 0, z: 0}
+  onImpactAny:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPhysObject:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactEnemy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &3452572401282718470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5216132945968806651}
+  - component: {fileID: 5636577022066300954}
+  - component: {fileID: 6826970658409498090}
+  - component: {fileID: 2097249084255732639}
+  - component: {fileID: 2030124304909257014}
+  m_Layer: 0
+  m_Name: PipePakunHead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5216132945968806651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3452572401282718470}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 3.48, y: -11.600634, z: -15.62}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 386605859566673695}
+  m_Father: {fileID: 6912073662395230794}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 180}
+--- !u!33 &5636577022066300954
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3452572401282718470}
+  m_Mesh: {fileID: 4300000, guid: 4c88f920d5e73dd488f1da21a9855ba8, type: 2}
+--- !u!23 &6826970658409498090
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3452572401282718470}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0555a3c7a1350c4468fd18cbb0383793, type: 2}
+  - {fileID: 2100000, guid: 9068b474540fd24498dca144b1caddbb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2097249084255732639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3452572401282718470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!64 &2030124304909257014
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3452572401282718470}
+  m_Material: {fileID: 13400000, guid: 16beacdfb792c1b4ab7ff8e899dba76a, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 4c88f920d5e73dd488f1da21a9855ba8, type: 2}
+--- !u!1 &6248528725203535350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 386605859566673695}
+  - component: {fileID: 8072753122951298739}
+  - component: {fileID: 4765915007021492110}
+  m_Layer: 7
+  m_Name: Hurt Collider - Death Pit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &386605859566673695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248528725203535350}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.22486, y: 0.93643, z: -0.12012}
+  m_LocalScale: {x: 0.1848605, y: 0.73210454, z: 0.15758291}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5216132945968806651}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8072753122951298739
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248528725203535350}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.9959135, y: 2.9233303, z: 9.219203}
+  m_Center: {x: 1.0764441, y: 0.5657692, z: 0.82431555}
+--- !u!114 &4765915007021492110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248528725203535350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df46af9b5382a99d6c879bd453f679c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLogic: 1
+  playerKill: 0
+  playerDamage: 5
+  playerDamageCooldown: 0.25
+  playerHitForce: 12
+  playerRayCast: 0
+  playerTumbleForce: 12
+  playerTumbleTorque: 0
+  playerTumbleTorqueAxis: 0
+  playerTumbleTime: 0.3
+  playerTumbleImpactHurtTime: 0
+  playerTumbleImpactHurtDamage: 0
+  physLogic: 1
+  physDestroy: 0
+  physHingeDestroy: 0
+  physHingeBreak: 0
+  physImpact: 1
+  physDamageCooldown: 0.25
+  physHitForce: 0
+  physHitTorque: 0
+  physRayCast: 0
+  enemyLogic: 1
+  enemyHost: {fileID: 0}
+  enemyKill: 0
+  enemyStun: 0
+  enemyStunTime: 1
+  enemyStunType: 0
+  enemyFreezeTime: 0.1
+  enemyImpact: 2
+  enemyDamage: 3
+  enemyDamageCooldown: 0.5
+  enemyHitForce: 0
+  enemyHitTorque: 0
+  enemyRayCast: 0
+  enemyHitTriggers: 0
+  deathPit: 0
+  hitSpread: 180
+  ignoreObjects: []
+  hasTimer: 0
+  timer: 0.2
+  destroyOnTimerEnd: 0
+  hasCustomRaycastPosition: 0
+  customRaycastPosition: {x: 0, y: 0, z: 0}
+  onImpactAny:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPhysObject:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactEnemy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &6332962973349245642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4460181052560913025}
+  - component: {fileID: 674808917800283233}
+  - component: {fileID: 4345290877696862261}
+  m_Layer: 7
+  m_Name: Hurt Collider - Death Pit (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4460181052560913025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6332962973349245642}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.25285244, y: 0.36807236, z: 0.10473493, w: 0.8886051}
+  m_LocalPosition: {x: -0.11908, y: -0.891, z: -0.211}
+  m_LocalScale: {x: 0.084294364, y: 0.25683653, z: 0.084294364}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4289225679024835273}
+  m_LocalEulerAnglesHint: {x: 21.856, y: 49.629, z: 23.647}
+--- !u!65 &674808917800283233
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6332962973349245642}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.9959135, y: 2.9233303, z: 9.219203}
+  m_Center: {x: 1.0764441, y: 0.5657692, z: 0.82431555}
+--- !u!114 &4345290877696862261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6332962973349245642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df46af9b5382a99d6c879bd453f679c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLogic: 1
+  playerKill: 0
+  playerDamage: 5
+  playerDamageCooldown: 0.25
+  playerHitForce: 12
+  playerRayCast: 0
+  playerTumbleForce: 12
+  playerTumbleTorque: 0
+  playerTumbleTorqueAxis: 0
+  playerTumbleTime: 0.3
+  playerTumbleImpactHurtTime: 0
+  playerTumbleImpactHurtDamage: 0
+  physLogic: 1
+  physDestroy: 0
+  physHingeDestroy: 0
+  physHingeBreak: 0
+  physImpact: 1
+  physDamageCooldown: 0.25
+  physHitForce: 0
+  physHitTorque: 0
+  physRayCast: 0
+  enemyLogic: 1
+  enemyHost: {fileID: 0}
+  enemyKill: 0
+  enemyStun: 0
+  enemyStunTime: 1
+  enemyStunType: 0
+  enemyFreezeTime: 0.1
+  enemyImpact: 2
+  enemyDamage: 3
+  enemyDamageCooldown: 0.5
+  enemyHitForce: 0
+  enemyHitTorque: 0
+  enemyRayCast: 0
+  enemyHitTriggers: 0
+  deathPit: 0
+  hitSpread: 180
+  ignoreObjects: []
+  hasTimer: 0
+  timer: 0.2
+  destroyOnTimerEnd: 0
+  hasCustomRaycastPosition: 0
+  customRaycastPosition: {x: 0, y: 0, z: 0}
+  onImpactAny:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactPhysObject:
+    m_PersistentCalls:
+      m_Calls: []
+  onImpactEnemy:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &8753765958687395938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4289225679024835273}
+  - component: {fileID: 4243045592929382210}
+  - component: {fileID: 9005329620880376519}
+  - component: {fileID: 6462971353121529855}
+  - component: {fileID: 4259582148122125709}
+  m_Layer: 0
+  m_Name: PipePakunCorner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4289225679024835273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8753765958687395938}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 1.02, y: -11.600634, z: -13.87}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 42467514503926384}
+  - {fileID: 6850627483304487579}
+  - {fileID: 4460181052560913025}
+  m_Father: {fileID: 6912073662395230794}
+  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 180}
+--- !u!33 &4243045592929382210
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8753765958687395938}
+  m_Mesh: {fileID: 4300000, guid: 42d408e210f28cc43bb8b5629b527d75, type: 2}
+--- !u!23 &9005329620880376519
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8753765958687395938}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 105f2c4df3908a643ae9be437f995475, type: 2}
+  - {fileID: 2100000, guid: f60a49ed73997df4ab9363e1b65bde7d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6462971353121529855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8753765958687395938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
+--- !u!64 &4259582148122125709
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8753765958687395938}
+  m_Material: {fileID: 13400000, guid: 16beacdfb792c1b4ab7ff8e899dba76a, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 42d408e210f28cc43bb8b5629b527d75, type: 2}

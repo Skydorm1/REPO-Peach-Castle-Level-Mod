@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409054382c13ee7d4e9126c1b58d3c2b, type: 3}
+  m_Name: Level - PeachCastle
+  m_EditorClassIdentifier: 
+  ResourcePath: PeachCastle
+  NarrativeName: Peach's Castle
+  ModuleAmount: 5
+  PassageMaxAmount: 3
+  HasEnemies: 1
+  ConnectObject: {fileID: 1300195253853453, guid: 58934c317eeeba2489319e8232a4cd81, type: 3}
+  BlockObject: {fileID: 0}
+  StartRooms:
+  - {fileID: 1114366841576780, guid: d33666f6b2b182e49be3674e66eb0ac0, type: 3}
+  - {fileID: 1114366841576780, guid: 91fff0ff5ade5544eb0421e591add034, type: 3}
+  - {fileID: 1114366841576780, guid: ec3d78ec7ac690245a4e06a74e55e108, type: 3}
+  - {fileID: 1114366841576780, guid: 94a76fc3e077d5b408d3b29cd21cc251, type: 3}
+  - {fileID: 1114366841576780, guid: 397aba6a68c6d1942822f7622220301b, type: 3}
+  LoadingGraphic01: {fileID: 21300000, guid: 9429b391afeef7f47bb4a42b44c7a872, type: 2}
+  LoadingGraphic02: {fileID: 21300000, guid: 7f81dc4fa087fd44394351270d5e6a38, type: 2}
+  LoadingGraphic03: {fileID: 21300000, guid: b989f2c6327b03141b813192d4f3f9d1, type: 2}
+  ModulesNormal1:
+  - {fileID: 1670281579691592, guid: 6af31db5ba2605d4f80dbcedd2940e72, type: 3}
+  - {fileID: 1670281579691592, guid: e62740172c4461a4e97bfca613e7d007, type: 3}
+  - {fileID: 1670281579691592, guid: df654e2da33b4584a806636bbddea17b, type: 3}
+  - {fileID: 1670281579691592, guid: e04e5fd6d7fb11d42b2532fb1bef29a9, type: 3}
+  - {fileID: 1670281579691592, guid: 9de8679577255284c9284334308afd7c, type: 3}
+  ModulesPassage1:
+  - {fileID: 1770717906788219, guid: e430e0fa30520b440a48be40f1763f08, type: 3}
+  - {fileID: 1770717906788219, guid: e54a970c791dddf4c90b64c7baa0f8e8, type: 3}
+  - {fileID: 1770717906788219, guid: a21e5ceaae39e6340a17833134ded35d, type: 3}
+  ModulesDeadEnd1:
+  - {fileID: 1636987151772562, guid: e57dd6b49eaadfb47b7fcbf6f3e132d1, type: 3}
+  - {fileID: 1636987151772562, guid: 79dc3b57fe095184e93d1c3d0443a311, type: 3}
+  ModulesExtraction1:
+  - {fileID: 1770717906788219, guid: 40e49572c3be0ad47a60ba8fc84c60ea, type: 3}
+  ModulesNormal2:
+  - {fileID: 1670281579691592, guid: 6af31db5ba2605d4f80dbcedd2940e72, type: 3}
+  - {fileID: 1670281579691592, guid: e62740172c4461a4e97bfca613e7d007, type: 3}
+  - {fileID: 1670281579691592, guid: df654e2da33b4584a806636bbddea17b, type: 3}
+  - {fileID: 1670281579691592, guid: e04e5fd6d7fb11d42b2532fb1bef29a9, type: 3}
+  - {fileID: 1670281579691592, guid: 9de8679577255284c9284334308afd7c, type: 3}
+  ModulesPassage2:
+  - {fileID: 1770717906788219, guid: e430e0fa30520b440a48be40f1763f08, type: 3}
+  - {fileID: 1770717906788219, guid: e54a970c791dddf4c90b64c7baa0f8e8, type: 3}
+  - {fileID: 1770717906788219, guid: a21e5ceaae39e6340a17833134ded35d, type: 3}
+  ModulesDeadEnd2:
+  - {fileID: 1636987151772562, guid: e57dd6b49eaadfb47b7fcbf6f3e132d1, type: 3}
+  - {fileID: 1636987151772562, guid: 79dc3b57fe095184e93d1c3d0443a311, type: 3}
+  ModulesExtraction2:
+  - {fileID: 1770717906788219, guid: 40e49572c3be0ad47a60ba8fc84c60ea, type: 3}
+  ModulesNormal3:
+  - {fileID: 1670281579691592, guid: 6af31db5ba2605d4f80dbcedd2940e72, type: 3}
+  - {fileID: 1670281579691592, guid: e62740172c4461a4e97bfca613e7d007, type: 3}
+  - {fileID: 1670281579691592, guid: df654e2da33b4584a806636bbddea17b, type: 3}
+  - {fileID: 1670281579691592, guid: e04e5fd6d7fb11d42b2532fb1bef29a9, type: 3}
+  - {fileID: 1670281579691592, guid: 9de8679577255284c9284334308afd7c, type: 3}
+  ModulesPassage3:
+  - {fileID: 1770717906788219, guid: e54a970c791dddf4c90b64c7baa0f8e8, type: 3}
+  - {fileID: 1770717906788219, guid: e430e0fa30520b440a48be40f1763f08, type: 3}
+  - {fileID: 1770717906788219, guid: a21e5ceaae39e6340a17833134ded35d, type: 3}
+  ModulesDeadEnd3:
+  - {fileID: 1636987151772562, guid: e57dd6b49eaadfb47b7fcbf6f3e132d1, type: 3}
+  - {fileID: 1636987151772562, guid: 79dc3b57fe095184e93d1c3d0443a311, type: 3}
+  ModulesExtraction3:
+  - {fileID: 1770717906788219, guid: 40e49572c3be0ad47a60ba8fc84c60ea, type: 3}
+  ValuablePresets:
+  - {fileID: 11400000, guid: f58c6de0c6865c148adc35b94a76464d, type: 2}
+  MusicPreset: {fileID: 11400000, guid: 0a16d7a0af4a3254ca6b32b15ef2dbc5, type: 2}
+  ConstantMusicPreset: {fileID: 0}
+  AmbiencePresets:
+  - {fileID: 11400000, guid: 49ab2ea107cca6f459a689b7f5148f71, type: 2}
+  FogColor: {r: 0, g: 0, b: 0, a: 1}
+  FogStartDistance: 0
+  FogEndDistance: 19
+  AmbientColor: {r: 0.2, g: 0.11764706, b: 0.1553152, a: 0}
+  AmbientColorAdaptation: {r: 0.32156864, g: 0.20392157, b: 0.29427633, a: 0}
+  ColorTemperature: -1.5
+  ColorFilter: {r: 0.8726415, g: 0.92736584, b: 1, a: 1}
+  BloomIntensity: 10
+  BloomThreshold: 0.9
+  VignetteColor: {r: 0, g: 0.016015826, b: 0.254717, a: 0}
+  VignetteIntensity: 0.2
+  VignetteSmoothness: 0.7
